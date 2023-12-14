@@ -1,0 +1,55 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.mobile-number-verified-image-c {
+  position: absolute;
+  top: calc(50% - 87px);
+  left: calc(50% - 137px);
+  width: 274px;
+  height: 143px;
+  object-fit: cover;
+  opacity: 1;
+}
+.mobile-number-verified-image-c.animate,
+.mobile-number-verified-image-f.animate,
+.mobile-number-verified-image.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.mobile-number-verified-image,
+.mobile-number-verified-image-f {
+  position: absolute;
+  top: calc(50% + 71px);
+  left: calc(50% - 98px);
+  width: 197px;
+  height: 43px;
+  object-fit: cover;
+  opacity: 1;
+}
+.mobile-number-verified-image {
+  top: calc(50% - 114px);
+  left: calc(50% - 56px);
+  width: 113px;
+  height: 227px;
+}
+.mobile-number-verified-image-c-parent {
+  position: absolute;
+  top: calc(50% - 113.5px);
+  left: calc(50% - 136.5px);
+  width: 274px;
+  height: 228px;
+}
+.mobile-number-verified-popup {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 649px;
+  height: 479px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+}

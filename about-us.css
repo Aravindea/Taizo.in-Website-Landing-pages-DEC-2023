@@ -1,0 +1,1816 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.taizo-logo-icon3 {
+  position: relative;
+  width: 144px;
+  height: 52.3px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.home3 {
+  cursor: pointer;
+}
+.home3:hover,
+.jobseeker5:hover {
+  color: var(--color-mediumseagreen-200);
+  cursor: pointer;
+}
+.home3,
+.jobseeker5 {
+  position: relative;
+  font-weight: 500;
+}
+.nav-bar-links7 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.contact-us5 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-mediumseagreen-200);
+  text-align: left;
+  display: inline-block;
+  width: 78px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.contact-us-btn3,
+.nav-bar-links-btn-con3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contact-us-btn3 {
+  cursor: pointer;
+  border: 1.5px solid var(--color-mediumseagreen-200);
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  align-items: flex-start;
+}
+.contact-us-btn3:hover {
+  background-color: var(--color-mediumseagreen-300);
+}
+.nav-bar-links-btn-con3 {
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-6xl);
+}
+.menu-menu-alt-013 {
+  position: absolute;
+  height: 41.67%;
+  width: 58.33%;
+  top: 29.17%;
+  right: 20.83%;
+  bottom: 29.17%;
+  left: 20.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tab-mob-view-nav-bar-menu-ic3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.nav-bar-links-btn3 {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.nav-bar-links-btn3,
+.nav-bar-links6,
+.nav-bar3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-bar-links6 {
+  flex: 1;
+  flex-shrink: 0;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.nav-bar3 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-61xl);
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 100;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
+}
+.silhouette-confident-businessp-icon {
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  right: 0;
+  bottom: -399.7px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 905px;
+  object-fit: cover;
+  z-index: 0;
+}
+.about-us6 {
+  position: relative;
+  display: inline-block;
+  width: 151px;
+  flex-shrink: 0;
+}
+.about-us-line {
+  flex: 1;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1px;
+}
+.about-us-title-line {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  opacity: 0;
+}
+.about-us-title-line.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-left;
+}
+.we-are-an {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  text-align: justify;
+  opacity: 0;
+}
+.we-are-an.animate {
+  animation: 1s ease 0.1s 1 normal forwards slide-in-left;
+}
+.title-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 1063px;
+  z-index: 1;
+}
+.about-us-section {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-61xl) var(--padding-121xl);
+  position: relative;
+  gap: var(--gap-3xs);
+  color: var(--color-white);
+}
+.our-team1 {
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  flex-shrink: 0;
+}
+.our-team-line {
+  flex: 1;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  height: 2px;
+}
+.ceo-and-co-founder,
+.gopi-mani {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.gopi-mani {
+  font-weight: 600;
+  height: 21px;
+}
+.ceo-and-co-founder {
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+  height: 17px;
+}
+.gopi-mani-role {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linked-in-ic-icon {
+  border-radius: var(--br-9xs);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.linked-in-ic-icon:hover {
+  cursor: pointer;
+}
+.gopi-mani-social-id {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.card-bottom-line,
+.linked-in-ic-icon:hover {
+  background-color: var(--color-mediumseagreen-100);
+}
+.card-bottom-line {
+  position: relative;
+  width: 196px;
+  height: 4px;
+}
+.gopi-mani-bg-card,
+.gopi-mani-role-social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.gopi-mani-role-social-link {
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.gopi-mani-bg-card {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  padding: var(--padding-48xl) 0 0;
+  z-index: 0;
+}
+.gopi-mani-img-1-bw,
+.gopi-mani-img-1-color {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+}
+.gopi-mani-img-1-color {
+  top: calc(50% - 138.8px);
+  left: calc(50% - 55px);
+  width: 110px;
+  height: 110px;
+  display: none;
+  z-index: 1;
+}
+.gopi-mani-img-1-bw {
+  top: calc(50% - 131.8px);
+  left: calc(50% - 48px);
+  width: 96px;
+  height: 96px;
+  z-index: 2;
+}
+.team-member-gopi-mani {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-gopi-mani:hover .card-bottom-line,
+.team-member-gopi-mani:hover .ceo-and-co-founder,
+.team-member-gopi-mani:hover .gopi-mani-bg-card,
+.team-member-gopi-mani:hover .gopi-mani-img-1-color,
+.team-member-gopi-mani:hover .gopi-mani-role,
+.team-member-gopi-mani:hover .gopi-mani-role-social-link,
+.team-member-gopi-mani:hover .gopi-mani-social-id,
+.team-member-gopi-mani:hover .linked-in-ic-icon {
+  display: flex;
+}
+.team-member-gopi-mani:hover .gopi-mani-img-1-bw {
+  display: none;
+}
+.vinoth-mani-img-bw,
+.vinoth-mani-img-color-icon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+}
+.vinoth-mani-img-color-icon {
+  top: calc(50% - 138.8px);
+  left: calc(50% - 55px);
+  width: 110px;
+  height: 110px;
+  display: none;
+  z-index: 1;
+}
+.vinoth-mani-img-bw {
+  top: calc(50% - 131.8px);
+  left: calc(50% - 48px);
+  width: 96px;
+  height: 96px;
+  z-index: 2;
+}
+.gopi-mani-vinoth-mani,
+.team-member-vinoth-mani {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-member-vinoth-mani {
+  width: 196px;
+  flex-direction: column;
+  position: relative;
+}
+.team-member-vinoth-mani:hover .card-bottom-line,
+.team-member-vinoth-mani:hover .ceo-and-co-founder,
+.team-member-vinoth-mani:hover .gopi-mani-bg-card,
+.team-member-vinoth-mani:hover .gopi-mani-role,
+.team-member-vinoth-mani:hover .gopi-mani-role-social-link,
+.team-member-vinoth-mani:hover .gopi-mani-social-id,
+.team-member-vinoth-mani:hover .linked-in-ic-icon,
+.team-member-vinoth-mani:hover .vinoth-mani-img-color-icon {
+  display: flex;
+}
+.team-member-vinoth-mani:hover .vinoth-mani-img-bw {
+  display: none;
+}
+.gopi-mani-vinoth-mani {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-xl);
+  opacity: 0;
+}
+.gopi-mani-vinoth-mani.animate {
+  animation: 1s ease 0.1s 1 normal forwards slide-in-bottom;
+}
+.aravind-elumalai-bg-card,
+.team-member-aravind-elumalai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.aravind-elumalai-bg-card {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  padding: var(--padding-48xl) 0 0;
+  z-index: 0;
+}
+.team-member-aravind-elumalai {
+  width: 196px;
+  position: relative;
+}
+.team-member-aravind-elumalai:hover .aravind-elumalai-bg-card,
+.team-member-aravind-elumalai:hover .card-bottom-line,
+.team-member-aravind-elumalai:hover .gopi-mani,
+.team-member-aravind-elumalai:hover .gopi-mani-role,
+.team-member-aravind-elumalai:hover .gopi-mani-role-social-link,
+.team-member-aravind-elumalai:hover .gopi-mani-social-id,
+.team-member-aravind-elumalai:hover .linked-in-ic-icon,
+.team-member-aravind-elumalai:hover .vinoth-mani-img-color-icon {
+  display: flex;
+}
+.team-member-aravind-elumalai:hover .vinoth-mani-img-bw,
+.team-member-vinoth-kumar:hover .vinoth-u-bw-icon {
+  display: none;
+}
+.vinoth-u-bw-icon,
+.vinoth-u-color {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+}
+.vinoth-u-color {
+  top: -49.8px;
+  left: 42.5px;
+  width: 110px;
+  height: 110px;
+  display: none;
+  z-index: 1;
+}
+.vinoth-u-bw-icon {
+  top: -42.8px;
+  left: 49.5px;
+  width: 96px;
+  height: 96px;
+  z-index: 2;
+}
+.team-member-vinoth-kumar {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-vinoth-kumar:hover .vinoth-u-color {
+  display: flex;
+}
+.harissh-venu-color-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 135.8px);
+  left: calc(50% - 55px);
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.harissh-venu-bw-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 128.8px);
+  left: calc(50% - 48px);
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  z-index: 2;
+}
+.team-member-harissh-venu,
+.team-member-k-saravanan,
+.team-member-pandiyammal {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-harissh-venu:hover {
+  cursor: pointer;
+}
+.team-member-harissh-venu:hover .harissh-venu-bw-img-icon {
+  display: none;
+}
+.team-member-harissh-venu:hover .harissh-venu-color-img-icon,
+.team-member-k-saravanan:hover .card-bottom-line,
+.team-member-k-saravanan:hover .ceo-and-co-founder,
+.team-member-k-saravanan:hover .gopi-mani-bg-card,
+.team-member-k-saravanan:hover .gopi-mani-role,
+.team-member-k-saravanan:hover .gopi-mani-role-social-link,
+.team-member-k-saravanan:hover .gopi-mani-social-id,
+.team-member-k-saravanan:hover .harissh-venu-color-img-icon,
+.team-member-k-saravanan:hover .linked-in-ic-icon {
+  display: flex;
+}
+.team-member-k-saravanan:hover .harissh-venu-bw-img-icon {
+  display: none;
+}
+.team-member-pandiyammal:hover .harissh-venu-color-img-icon {
+  display: flex;
+}
+.team-member-pandiyammal:hover .harissh-venu-bw-img-icon {
+  display: none;
+}
+.software-development-manager {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray);
+  display: inline-block;
+  height: 17px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.linked-in-ic-icon7 {
+  border-radius: var(--br-9xs);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.linked-in-ic-icon7:hover {
+  background-color: var(--color-mediumseagreen-100);
+  cursor: pointer;
+}
+.team-member-adithya-kalimuthu {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-adithya-kalimuthu:hover .harissh-venu-color-img-icon {
+  display: flex;
+}
+.team-member-adithya-kalimuthu:hover .harissh-venu-bw-img-icon {
+  display: none;
+}
+.akshay-suresh-color-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 135.3px);
+  left: calc(50% - 55px);
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.akshay-suresh-bw-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 128.3px);
+  left: calc(50% - 48px);
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  z-index: 2;
+}
+.team-member-akshay-suresh {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-akshay-suresh:hover .akshay-suresh-color-img-icon,
+.team-member-akshay-suresh:hover .card-bottom-line,
+.team-member-akshay-suresh:hover .ceo-and-co-founder,
+.team-member-akshay-suresh:hover .gopi-mani-bg-card,
+.team-member-akshay-suresh:hover .gopi-mani-role,
+.team-member-akshay-suresh:hover .gopi-mani-role-social-link,
+.team-member-akshay-suresh:hover .gopi-mani-social-id,
+.team-member-akshay-suresh:hover .linked-in-ic-icon {
+  display: flex;
+}
+.team-member-akshay-suresh:hover .akshay-suresh-bw-img-icon {
+  display: none;
+}
+.saravanan-mohan-color-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 135.3px);
+  left: calc(50% - 55px);
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.saravanan-mohan-bw-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 128.3px);
+  left: calc(50% - 48px);
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  z-index: 2;
+}
+.team-member-saravanan-mohan,
+.team-member-ziyauddeen-unais {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-saravanan-mohan:hover .card-bottom-line,
+.team-member-saravanan-mohan:hover .ceo-and-co-founder,
+.team-member-saravanan-mohan:hover .gopi-mani-bg-card,
+.team-member-saravanan-mohan:hover .gopi-mani-role,
+.team-member-saravanan-mohan:hover .gopi-mani-role-social-link,
+.team-member-saravanan-mohan:hover .gopi-mani-social-id,
+.team-member-saravanan-mohan:hover .linked-in-ic-icon,
+.team-member-saravanan-mohan:hover .saravanan-mohan-color-img-icon {
+  display: flex;
+}
+.team-member-saravanan-mohan:hover .saravanan-mohan-bw-img-icon {
+  display: none;
+}
+.team-member-ziyauddeen-unais:hover .card-bottom-line,
+.team-member-ziyauddeen-unais:hover .gopi-mani,
+.team-member-ziyauddeen-unais:hover .gopi-mani-bg-card,
+.team-member-ziyauddeen-unais:hover .gopi-mani-role,
+.team-member-ziyauddeen-unais:hover .gopi-mani-role-social-link,
+.team-member-ziyauddeen-unais:hover .gopi-mani-social-id,
+.team-member-ziyauddeen-unais:hover .linked-in-ic-icon,
+.team-member-ziyauddeen-unais:hover .saravanan-mohan-color-img-icon {
+  display: flex;
+}
+.team-member-ziyauddeen-unais:hover .saravanan-mohan-bw-img-icon {
+  display: none;
+}
+.customer-onboarding-specialist {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray);
+  mix-blend-mode: normal;
+}
+.sowmiya-gunasekaran-color-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 134.8px);
+  left: calc(50% - 55px);
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.sowmiya-gunasekaran-bw-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 127.8px);
+  left: calc(50% - 48px);
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  z-index: 2;
+}
+.team-member-jothi-prakash-selv,
+.team-member-rahul-sekar,
+.team-member-sowmiya-gunasekara {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-sowmiya-gunasekara:hover .card-bottom-line,
+.team-member-sowmiya-gunasekara:hover .customer-onboarding-specialist,
+.team-member-sowmiya-gunasekara:hover .gopi-mani-bg-card,
+.team-member-sowmiya-gunasekara:hover .gopi-mani-role,
+.team-member-sowmiya-gunasekara:hover .gopi-mani-role-social-link,
+.team-member-sowmiya-gunasekara:hover .gopi-mani-social-id,
+.team-member-sowmiya-gunasekara:hover .linked-in-ic-icon,
+.team-member-sowmiya-gunasekara:hover .sowmiya-gunasekaran-color-img-icon {
+  display: flex;
+}
+.team-member-sowmiya-gunasekara:hover .sowmiya-gunasekaran-bw-img-icon {
+  display: none;
+}
+.team-member-jothi-prakash-selv:hover .card-bottom-line,
+.team-member-jothi-prakash-selv:hover .gopi-mani,
+.team-member-jothi-prakash-selv:hover .gopi-mani-bg-card,
+.team-member-jothi-prakash-selv:hover .gopi-mani-role,
+.team-member-jothi-prakash-selv:hover .gopi-mani-role-social-link,
+.team-member-jothi-prakash-selv:hover .gopi-mani-social-id,
+.team-member-jothi-prakash-selv:hover .harissh-venu-color-img-icon,
+.team-member-jothi-prakash-selv:hover .linked-in-ic-icon {
+  display: flex;
+}
+.team-member-jothi-prakash-selv:hover .harissh-venu-bw-img-icon {
+  display: none;
+}
+.team-member-rahul-sekar:hover .card-bottom-line,
+.team-member-rahul-sekar:hover .ceo-and-co-founder,
+.team-member-rahul-sekar:hover .gopi-mani-bg-card,
+.team-member-rahul-sekar:hover .gopi-mani-role,
+.team-member-rahul-sekar:hover .gopi-mani-role-social-link,
+.team-member-rahul-sekar:hover .gopi-mani-social-id,
+.team-member-rahul-sekar:hover .harissh-venu-color-img-icon,
+.team-member-rahul-sekar:hover .linked-in-ic-icon {
+  display: flex;
+}
+.team-member-rahul-sekar:hover .harissh-venu-bw-img-icon {
+  display: none;
+}
+.sivarajani-t-bw-icon,
+.sivarajani-t-color-icon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+}
+.sivarajani-t-color-icon {
+  top: -49.3px;
+  left: 43.5px;
+  width: 110px;
+  height: 110px;
+  display: none;
+  z-index: 1;
+}
+.sivarajani-t-bw-icon {
+  top: -42.3px;
+  left: 50.5px;
+  width: 96px;
+  height: 96px;
+  z-index: 2;
+}
+.team-member-sivaranjani-t {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.team-member-anees-fatima:hover,
+.team-member-sivaranjani-t:hover {
+  cursor: pointer;
+}
+.team-member-sivaranjani-t:hover .card-bottom-line,
+.team-member-sivaranjani-t:hover .gopi-mani-bg-card,
+.team-member-sivaranjani-t:hover .gopi-mani-role,
+.team-member-sivaranjani-t:hover .gopi-mani-role-social-link {
+  display: flex;
+}
+.team-member-sivaranjani-t:hover .sivarajani-t-bw-icon {
+  display: none;
+}
+.team-member-anees-fatima:hover .card-bottom-line,
+.team-member-anees-fatima:hover .gopi-mani-bg-card,
+.team-member-anees-fatima:hover .gopi-mani-role,
+.team-member-anees-fatima:hover .gopi-mani-role-social-link,
+.team-member-sivaranjani-t:hover .sivarajani-t-color-icon {
+  display: flex;
+}
+.anees-fatima-bw-icon,
+.anees-fatima-color-icon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+}
+.anees-fatima-color-icon {
+  top: -55.3px;
+  left: 43.5px;
+  width: 110px;
+  height: 110px;
+  display: none;
+  z-index: 1;
+}
+.anees-fatima-bw-icon {
+  top: -48.3px;
+  left: 50.5px;
+  width: 96px;
+  height: 96px;
+  z-index: 2;
+}
+.other-team-members,
+.team-member-anees-fatima {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-member-anees-fatima {
+  width: 196px;
+  flex-direction: column;
+  position: relative;
+}
+.team-member-anees-fatima:hover .anees-fatima-bw-icon {
+  display: none;
+}
+.team-member-anees-fatima:hover .anees-fatima-color-icon {
+  display: flex;
+}
+.other-team-members {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-xl);
+  opacity: 0;
+  row-gap: 80px;
+}
+.other-team-members.animate {
+  animation: 1s ease 0.3s 1 normal forwards slide-in-bottom;
+}
+.team-members {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-101xl);
+  row-gap: 80px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.our-team,
+.our-team-container,
+.team-members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-team-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-101xl);
+  max-width: 1063px;
+}
+.our-team {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-61xl) var(--padding-121xl);
+}
+.our-mentors1 {
+  position: relative;
+  display: inline-block;
+  width: 207px;
+  flex-shrink: 0;
+}
+.director-of-development {
+  margin: 0;
+}
+.director-of-development-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+  display: inline-block;
+  height: 38px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.name-role-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.mr-shanmuga-sundaram-social-i {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.mr-shanmuga-sundaram-bg-card,
+.mr-shanmuga-sundaram-text-con {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mr-shanmuga-sundaram-text-con {
+  align-items: center;
+  gap: 44px;
+}
+.mr-shanmuga-sundaram-bg-card {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-47xl) 81px 34px;
+  z-index: 0;
+}
+.mr-shanmuga-sundaram-color-im {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 223.8px);
+  left: calc(50% - 55.25px);
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.mr-shanmuga-sundaram-bw-img {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 216.8px);
+  left: calc(50% - 48.25px);
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  z-index: 2;
+}
+.mr-shanmuga-sundaram-column {
+  flex: 1;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.mr-shanmuga-sundaram-column:hover .mr-shanmuga-sundaram-bw-img {
+  display: none;
+}
+.mr-shanmuga-sundaram-column:hover .mr-shanmuga-sundaram-color-im {
+  display: flex;
+}
+.mr-vijay-kumar {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+  mix-blend-mode: normal;
+}
+.mr-vijay-kumar-bg-card,
+.mr-vijay-kumar-text-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mr-vijay-kumar-text-content {
+  align-items: center;
+  gap: var(--gap-12xl);
+}
+.mr-vijay-kumar-bg-card {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-47xl) var(--padding-11xl) 26px;
+  z-index: 0;
+}
+.mr-vijay-kumar-bw-img,
+.mr-vijay-kumar-color-img {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+}
+.mr-vijay-kumar-color-img {
+  top: calc(50% - 223.8px);
+  left: calc(50% - 54.75px);
+  width: 110px;
+  height: 110px;
+  display: none;
+  z-index: 1;
+}
+.mr-vijay-kumar-bw-img {
+  top: calc(50% - 216.8px);
+  left: calc(50% - 47.75px);
+  width: 96px;
+  height: 96px;
+  z-index: 2;
+}
+.mr-vijay-kumar-column {
+  flex: 1;
+  height: 337px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.mr-vijay-kumar-column:hover .mr-vijay-kumar-bw-img {
+  display: none;
+}
+.mr-vijay-kumar-column:hover .mr-vijay-kumar-color-img {
+  display: flex;
+}
+.our-mentors-content-row {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-xl);
+  opacity: 0;
+  row-gap: 80px;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.our-mentors-content-row.animate {
+  animation: 1s ease 0.2s 1 normal forwards slide-in-bottom;
+}
+.our-mentors,
+.our-mentors-container,
+.our-mentors-content-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-mentors-container {
+  flex: 1;
+  flex-direction: column;
+  gap: 110px;
+  max-width: 1063px;
+}
+.our-mentors {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-41xl) var(--padding-121xl);
+}
+.incubated-by {
+  position: relative;
+  display: inline-block;
+  width: 207px;
+  flex-shrink: 0;
+}
+.cedi-logo-icon {
+  position: relative;
+  width: 175px;
+  height: 124px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.cedi-logo-icon:hover {
+  cursor: pointer;
+  animation: 1s ease 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.incubators-logo-row,
+.inucatbed-by-container {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.incubators-logo-row {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0;
+}
+.incubators-logo-row.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-bottom;
+}
+.inucatbed-by-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1063px;
+}
+.inucatbed-by {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-61xl);
+}
+.footer-logo-icon3 {
+  position: relative;
+  width: 152.3px;
+  height: 46px;
+  cursor: pointer;
+}
+.taizo-enables-manufacturing3 {
+  align-self: stretch;
+  position: relative;
+}
+.footer-logo-text3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.links7 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.employer6 {
+  cursor: pointer;
+}
+.employer6:hover,
+.jobseeker6:hover,
+.pricing4:hover,
+.were-hiring3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.employer6,
+.jobseeker6,
+.pricing4 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+}
+.jobseeker6 {
+  cursor: auto;
+}
+.pricing4 {
+  display: none;
+}
+.links-text3,
+.links6,
+.more6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.links-text3 {
+  align-self: stretch;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+}
+.links6,
+.more6 {
+  gap: var(--gap-2xs);
+}
+.links6 {
+  width: 94px;
+}
+.more6 {
+  flex: 1;
+}
+.were-hiring3 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+  cursor: pointer;
+}
+.footer-quick-links3,
+.more-careers3 {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.footer-quick-links3 {
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-mediumseagreen-200);
+}
+.whatsapp-icon3 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.facebook-icon3 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-icon3,
+.youtube-icon3 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.social-icons3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.we-would-love3 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.infotaizoin4 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: var(--color-mediumseagreen-200);
+  cursor: pointer;
+  z-index: 0;
+}
+.infotaizoin4:hover,
+.privacy-policy3:hover,
+.terms-condition3:hover {
+  text-decoration: underline;
+}
+.a3,
+.div9,
+.infotaizoin4 {
+  display: inline-block;
+  height: 22px;
+}
+.div9 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.a3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 117px;
+  font-family: var(--font-roboto);
+  color: inherit;
+  text-align: left;
+  width: 4px;
+  flex-shrink: 0;
+  text-decoration: none;
+  z-index: 2;
+}
+.support-details3 {
+  width: 237px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+}
+.support3 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+}
+.footer-content3,
+.social-link3,
+.support3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.social-link3 {
+  width: 276px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-56xl);
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.footer-content3 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-41xl);
+}
+.green-div-line3 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-mediumseagreen-200);
+  height: 1px;
+}
+.copyright-taizo3 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.div10,
+.privacy-policy3 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.privacy-policy3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-be-vietnam);
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  width: 94px;
+}
+.div10 {
+  width: 8px;
+}
+.privacy-terms3,
+.terms-condition3 {
+  flex-shrink: 0;
+  font-family: var(--font-be-vietnam);
+}
+.terms-condition3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  display: inline-block;
+  width: 123px;
+}
+.privacy-terms3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-11xs);
+}
+.cotainer-23,
+.footer-container-13 {
+  display: flex;
+  justify-content: flex-start;
+}
+.cotainer-23 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.footer-container-13 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xl);
+  max-width: 1280px;
+}
+.footer-t3 {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-16xl) var(--padding-61xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+}
+.about-us4,
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-body {
+  align-self: stretch;
+  justify-content: flex-start;
+  font-size: var(--font-size-11xl);
+}
+.about-us4 {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .nav-bar3 {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .about-us6 {
+    font-size: var(--font-size-7xl);
+  }
+  .about-us-section {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .our-team1 {
+    font-size: var(--font-size-7xl);
+  }
+  .our-team {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .our-mentors1 {
+    font-size: var(--font-size-7xl);
+  }
+  .our-mentors {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .incubated-by {
+    font-size: var(--font-size-7xl);
+  }
+  .inucatbed-by {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .footer-quick-links3 {
+    gap: var(--gap-xl);
+  }
+  .footer-content3 {
+    gap: var(--gap-21xl);
+  }
+  .footer-t3 {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .about-us-section {
+    padding-left: var(--padding-261xl);
+    padding-right: var(--padding-261xl);
+    box-sizing: border-box;
+  }
+  .taizo-enables-manufacturing3 {
+    width: 442px;
+  }
+  .social-link3 {
+    gap: var(--gap-11xl);
+  }
+  .footer-t3 {
+    padding-left: var(--padding-261xl);
+    padding-right: var(--padding-261xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .nav-bar-links-btn-con3 {
+    display: none;
+  }
+  .nav-bar-links-btn3,
+  .tab-mob-view-nav-bar-menu-ic3 {
+    display: flex;
+  }
+  .nav-bar3 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .about-us6 {
+    font-size: var(--font-size-3xl);
+  }
+  .we-are-an {
+    font-size: var(--font-size-lg);
+  }
+  .about-us-section {
+    padding: var(--padding-41xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .our-team1 {
+    font-size: var(--font-size-3xl);
+  }
+  .gopi-mani-vinoth-mani,
+  .other-team-members,
+  .our-team-container,
+  .team-members {
+    align-items: center;
+    justify-content: center;
+  }
+  .our-team {
+    padding: var(--padding-41xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .our-mentors1 {
+    font-size: var(--font-size-3xl);
+  }
+  .mr-shanmuga-sundaram-bg-card {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .mr-vijay-kumar-text-content {
+    gap: var(--gap-xl);
+  }
+  .our-mentors {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .incubated-by {
+    font-size: var(--font-size-3xl);
+  }
+  .inucatbed-by {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .footer-logo-text3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .more-careers3 {
+    max-width: 299px;
+  }
+  .footer-quick-links3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .infotaizoin4,
+  .we-would-love3 {
+    text-align: left;
+  }
+  .div9 {
+    text-align: right;
+  }
+  .a3 {
+    text-align: left;
+  }
+  .support-details3 {
+    gap: var(--gap-8xs);
+  }
+  .social-link3,
+  .support3 {
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-link3 {
+    gap: var(--gap-31xl);
+    padding-top: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .footer-content3 {
+    flex-direction: column;
+    gap: var(--gap-21xl);
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .footer-container-13 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-t3 {
+    flex-direction: column;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-bar3 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .we-are-an {
+    font-size: var(--font-size-lg);
+    text-align: justify;
+  }
+  .about-us-section {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .our-team1 {
+    max-width: 170px;
+  }
+  .team-members {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    row-gap: 80px;
+  }
+  .our-team {
+    flex-direction: row;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mr-shanmuga-sundaram-column,
+  .mr-vijay-kumar-column {
+    flex: unset;
+    align-self: stretch;
+  }
+  .our-mentors-content-row {
+    flex-direction: column;
+  }
+  .inucatbed-by,
+  .our-mentors {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footer-logo-text3 {
+    width: auto;
+  }
+  .footer-logo-text3,
+  .more6 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-quick-links3,
+  .more-careers3 {
+    flex-direction: column;
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-quick-links3 {
+    width: 460px;
+    gap: var(--gap-31xl);
+  }
+  .infotaizoin4,
+  .we-would-love3 {
+    text-align: left;
+  }
+  .social-link3,
+  .support3 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-link3 {
+    gap: var(--gap-21xl);
+  }
+  .footer-content3 {
+    flex-direction: column;
+    gap: var(--gap-41xl);
+  }
+  .footer-container-13 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-t3 {
+    flex-direction: column;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .nav-bar-links-btn-con3 {
+    display: none;
+  }
+  .nav-bar-links-btn3,
+  .nav-bar-links6,
+  .tab-mob-view-nav-bar-menu-ic3 {
+    display: flex;
+  }
+  .nav-bar3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .about-us6 {
+    font-size: var(--font-size-xl);
+    max-width: 100px;
+  }
+  .we-are-an {
+    font-size: var(--font-size-base);
+  }
+  .about-us-section {
+    padding: var(--padding-11xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .our-team1 {
+    font-size: var(--font-size-xl);
+    max-width: 110px;
+  }
+  .gopi-mani-vinoth-mani {
+    row-gap: 80px;
+  }
+  .our-team {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .our-mentors1 {
+    font-size: var(--font-size-xl);
+    max-width: 130px;
+  }
+  .mr-vijay-kumar-text-content {
+    gap: var(--gap-12xl);
+  }
+  .mr-vijay-kumar-column {
+    height: 337px;
+  }
+  .our-mentors {
+    padding: var(--padding-11xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .incubated-by {
+    font-size: var(--font-size-xl);
+    max-width: 140px;
+  }
+  .inucatbed-by {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .taizo-enables-manufacturing3 {
+    font-size: var(--font-size-smi);
+    max-width: 340px;
+  }
+  .more-careers3,
+  .more6 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .more-careers3 {
+    gap: var(--gap-21xl);
+  }
+  .footer-quick-links3,
+  .more-careers3 {
+    flex-direction: column;
+  }
+  .support-details3 {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-link3 {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .copyright-taizo3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .privacy-policy3 {
+    text-align: left;
+  }
+  .cotainer-23,
+  .privacy-terms3 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .privacy-terms3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cotainer-23 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .footer-container-13 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-t3 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 350px) {
+  .nav-bar-links-btn-con3 {
+    display: none;
+  }
+  .tab-mob-view-nav-bar-menu-ic3 {
+    display: flex;
+  }
+  .team-members {
+    align-items: center;
+    justify-content: center;
+  }
+  .our-team {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .mr-vijay-kumar-bg-card {
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .inucatbed-by-container {
+    gap: var(--gap-11xl);
+  }
+  .inucatbed-by {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .taizo-enables-manufacturing3 {
+    font-size: var(--font-size-xs);
+  }
+  .footer-logo-text3 {
+    align-self: stretch;
+    width: auto;
+  }
+}

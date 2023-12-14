@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="./mobile-number-o-t-p-verification-popup.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Be Vietnam:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-number-otp-verification">
+      <div class="otp-verification-message">
+        <div class="otp-verification-message-numbe">
+          <b class="otp-verification">OTP Verification</b>
+          <div class="please-enter-the-container">
+            <span>Please enter the OTP code sent to </span>
+            <span class="span">+91 90000 00009</span>
+            <span> </span>
+          </div>
+        </div>
+        <div class="otp-input-field-error-message">
+          <div class="otp-input-field">
+            <input
+              class="otp-number-input-field-1"
+              type="text"
+              maxlength="1"
+              minlength="1"
+            />
+
+            <input
+              class="otp-number-input-field-1"
+              type="text"
+              maxlength="1"
+              minlength="1"
+            />
+
+            <input
+              class="otp-number-input-field-1"
+              type="text"
+              maxlength="1"
+              minlength="1"
+            />
+
+            <input
+              class="otp-number-input-field-1"
+              type="text"
+              maxlength="1"
+              minlength="1"
+            />
+
+            <input
+              class="otp-number-input-field-1"
+              type="text"
+              maxlength="1"
+              minlength="1"
+            />
+
+            <input
+              class="otp-number-input-field-1"
+              type="text"
+              maxlength="1"
+              minlength="1"
+            />
+          </div>
+          <div class="otp-verification">Invalid OTP entered</div>
+        </div>
+        <div class="verify-button-resend-button">
+          <button class="verify-button">
+            <div class="verify-button1">
+              <div class="verify">Verify</div>
+              <img
+                class="right-arrow-ic-icon"
+                alt=""
+                src="./public/rightarrow-ic@2x.png"
+              />
+            </div>
+          </button>
+          <div class="didnt-receive-an-container">
+            <span>Didn’t receive an OTP? </span>
+            <span class="span">Resend</span>
+            <span> </span>
+          </div>
+        </div>
+      </div>
+      <div class="close-ic" id="popupcloseIcContainer">
+        <button class="close-ic-inner" id="popupgroupButton">
+          <img class="frame-child" alt="" src="./public/group-8102@2x.png" />
+        </button>
+        <img class="close-icon" alt="" src="./public/close@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var popupgroupButton = document.getElementById("popupgroupButton");
+      if (popupgroupButton) {
+        popupgroupButton.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+      
+      var popupcloseIcContainer = document.getElementById("popupcloseIcContainer");
+      if (popupcloseIcContainer) {
+        popupcloseIcContainer.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

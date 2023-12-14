@@ -1,0 +1,1620 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-right {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.taizo-logo-icon4 {
+  position: relative;
+  width: 144px;
+  height: 52.3px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.home4 {
+  cursor: pointer;
+}
+.home4:hover,
+.jobseeker7:hover {
+  color: var(--color-mediumseagreen-200);
+  cursor: pointer;
+}
+.home4,
+.jobseeker7 {
+  position: relative;
+  font-weight: 500;
+}
+.nav-bar-links9 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.contact-us6 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-mediumseagreen-200);
+  text-align: left;
+  display: inline-block;
+  width: 78px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.contact-us-btn4,
+.nav-bar-links-btn-con4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contact-us-btn4 {
+  cursor: pointer;
+  border: 1.5px solid var(--color-mediumseagreen-200);
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  align-items: flex-start;
+}
+.contact-us-btn4:hover {
+  background-color: var(--color-mediumseagreen-300);
+}
+.nav-bar-links-btn-con4 {
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-6xl);
+}
+.menu-menu-alt-014 {
+  position: absolute;
+  height: 41.67%;
+  width: 58.33%;
+  top: 29.17%;
+  right: 20.83%;
+  bottom: 29.17%;
+  left: 20.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tab-mob-view-nav-bar-menu-ic4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.nav-bar-links-btn4 {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.nav-bar-links-btn4,
+.nav-bar-links8,
+.nav-bar4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-bar-links8 {
+  flex: 1;
+  flex-shrink: 0;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.nav-bar4 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-61xl);
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 100;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
+}
+.bacground-img-icon {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.hiring {
+  align-self: stretch;
+  position: relative;
+  font-size: 34px;
+  font-weight: 600;
+}
+.injection-molding1 {
+  color: var(--color-khaki);
+}
+.injection-molding1,
+.machine-operator {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.title-subtitle2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.made-simple-organized {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+}
+.title4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.call-192-svgrepo-com-3-icon1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div11 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.btn-title4 {
+  width: 145px;
+  flex-shrink: 0;
+  gap: var(--gap-8xs);
+}
+.book-a-free-call-btn1,
+.btn-title3,
+.btn-title4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.book-a-free-call-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-xl);
+  background-color: var(--color-mediumseagreen-200);
+  border-radius: var(--br-9xs);
+  width: 181px;
+  height: 51px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.book-a-free-call-btn1:hover {
+  background-color: var(--color-seagreen);
+}
+.whatsapp-communication-message-icon1 {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.whatsapp-us5 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.btn-title5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.whatsapp-us-btn1,
+.whatsapp-us-btn1:hover {
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.whatsapp-us-btn1 {
+  cursor: pointer;
+  padding: var(--padding-xs) var(--padding-3xs);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  width: 169px;
+  height: 51px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.whatsapp-us-btn1:hover {
+  background-color: var(--color-gray-200);
+}
+.buttons1,
+.title-buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons1 {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.title-buttons {
+  flex: 1;
+  flex-direction: column;
+  gap: 70px;
+  opacity: 1;
+}
+.machine-workers-image-1.animate,
+.title-buttons.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.machine-workers-image-1 {
+  position: relative;
+  width: 620px;
+  height: auto;
+  object-fit: cover;
+  opacity: 1;
+  max-width: 60%;
+}
+.title-img {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-41xl);
+  max-width: 1280px;
+}
+.header,
+.hero-container,
+.hero-section {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.hero-container {
+  flex-direction: row;
+  justify-content: center;
+  padding: 86px var(--padding-61xl) 120px;
+  z-index: 1;
+}
+.header,
+.hero-section {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero-section {
+  overflow: hidden;
+  position: relative;
+}
+.header {
+  font-size: var(--font-size-27xl);
+  color: var(--color-white);
+}
+.copmany-ic-mobile-view {
+  position: relative;
+  width: 51px;
+  height: 51px;
+  display: none;
+}
+.b {
+  position: relative;
+}
+.manufacturing-companies {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.stats-number {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.company-ic-large-view {
+  position: relative;
+  width: 51px;
+  height: 51px;
+}
+.comapanies,
+.companies-stats {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.comapanies {
+  width: 289px;
+  justify-content: flex-start;
+}
+.companies-stats {
+  flex: 1;
+  justify-content: flex-end;
+  opacity: 0;
+}
+.companies-stats.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in-left;
+}
+.horizontal-break-line-mob-view,
+.vertical-break-line {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslategray);
+}
+.horizontal-break-line-mob-view {
+  width: 380px;
+  height: 1px;
+  display: none;
+}
+.vertical-break-line {
+  width: 1px;
+  height: 88px;
+}
+.jobseekers-ic-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.114);
+}
+.wrapper-jobseekers-ic {
+  position: relative;
+  width: 54.4px;
+  height: 43.9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b1 {
+  position: relative;
+}
+.machine-operators-diplomaiti2 {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.machine-operators-diplomaiti,
+.machine-operators-diplomaiti1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.machine-operators-diplomaiti {
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+  opacity: 0;
+  text-align: left;
+}
+.machine-operators-diplomaiti.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in-right;
+}
+.stats-container,
+.stats-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stats-container {
+  flex: 1;
+  flex-shrink: 0;
+  gap: var(--gap-21xl);
+  max-width: 1280px;
+}
+.stats-section {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  padding: var(--padding-base) var(--padding-61xl);
+}
+.who-we-serve1 {
+  align-self: stretch;
+  position: relative;
+}
+.employer-img-1-n-1-icon {
+  position: relative;
+  width: 477px;
+  height: 389px;
+  object-fit: cover;
+  opacity: 1;
+}
+.employer-img-1-n-1-icon.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.an-all-in-one-platform-container,
+.manufacturing-unit-owners1 {
+  align-self: stretch;
+  position: relative;
+}
+.an-all-in-one-platform-container {
+  font-size: var(--font-size-sm);
+}
+.btn-title6,
+.title-subtitle3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.title-subtitle3 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.btn-title6 {
+  width: 145px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-8xs);
+}
+.call-91-780-680-5808-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--color-mediumseagreen-200);
+  border-radius: var(--br-9xs);
+  width: 181px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.call-91-780-680-5808-btn:hover {
+  background-color: var(--color-seagreen);
+}
+.whatsapp-us6 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-mediumseagreen-200);
+  text-align: left;
+}
+.whatsapp-us-btn2 {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumseagreen-200);
+  padding: var(--padding-5xs) var(--padding-3xs);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  width: 169px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.whatsapp-us-btn2:hover {
+  background-color: var(--color-mediumseagreen-300);
+}
+.buttons2,
+.title-sub-title-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.title-sub-title-buttons {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  opacity: 0;
+}
+.title-sub-title-buttons.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in-right;
+}
+.manufacturing-unit-owners {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.title-sub-title {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.title-sub-title,
+.title-subtitle-buttons,
+.whatsapp-us-btn3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.whatsapp-us-btn3,
+.whatsapp-us-btn3:hover {
+  border: 1px solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+}
+.whatsapp-us-btn3 {
+  cursor: pointer;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  width: 169px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+}
+.whatsapp-us-btn3:hover {
+  background-color: var(--color-mediumseagreen-300);
+}
+.title-subtitle-buttons {
+  flex: 1;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-41xl);
+  gap: var(--gap-21xl);
+  opacity: 0;
+}
+.title-subtitle-buttons.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in-left;
+}
+.employer-img-2-n-1-icon {
+  position: relative;
+  width: 477px;
+  height: auto;
+  object-fit: cover;
+  opacity: 1;
+  max-width: 55%;
+}
+.employer-img-2-n-1-icon.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.jobseekers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: right;
+}
+.owners-jobseekers {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.container-1,
+.owners-jobseekers,
+.who-we-serve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+  max-width: 1000px;
+}
+.who-we-serve {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-41xl) var(--padding-201xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.footer-logo-icon4 {
+  position: relative;
+  width: 152.3px;
+  height: 46px;
+  cursor: pointer;
+}
+.taizo-enables-manufacturing4 {
+  align-self: stretch;
+  position: relative;
+}
+.footer-logo-text4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.links9 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.employer8 {
+  cursor: pointer;
+}
+.employer8:hover,
+.jobseeker8:hover,
+.pricing5:hover,
+.were-hiring4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.employer8,
+.jobseeker8,
+.pricing5 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+}
+.jobseeker8 {
+  cursor: auto;
+}
+.pricing5 {
+  display: none;
+}
+.links-text4,
+.links8,
+.more8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.links-text4 {
+  align-self: stretch;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+}
+.links8,
+.more8 {
+  gap: var(--gap-2xs);
+}
+.links8 {
+  width: 94px;
+}
+.more8 {
+  flex: 1;
+}
+.were-hiring4 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+  cursor: pointer;
+}
+.footer-quick-links4,
+.more-careers4 {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.footer-quick-links4 {
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-mediumseagreen-200);
+}
+.whatsapp-icon4 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.facebook-icon4 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-icon4,
+.youtube-icon4 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.social-icons4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.we-would-love4 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.infotaizoin5 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: var(--color-mediumseagreen-200);
+  cursor: pointer;
+  z-index: 0;
+}
+.infotaizoin5:hover,
+.privacy-policy4:hover,
+.terms-condition4:hover {
+  text-decoration: underline;
+}
+.a4,
+.div14,
+.infotaizoin5 {
+  display: inline-block;
+  height: 22px;
+}
+.div14 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.a4 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 117px;
+  font-family: var(--font-roboto);
+  color: inherit;
+  text-align: left;
+  width: 4px;
+  flex-shrink: 0;
+  text-decoration: none;
+  z-index: 2;
+}
+.support-details4 {
+  width: 237px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+}
+.support4 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+}
+.footer-content4,
+.social-link4,
+.support4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.social-link4 {
+  width: 276px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-56xl);
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.footer-content4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-41xl);
+}
+.green-div-line4 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-mediumseagreen-200);
+  height: 1px;
+}
+.copyright-taizo4 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.div15,
+.privacy-policy4 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.privacy-policy4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-be-vietnam);
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  width: 94px;
+}
+.div15 {
+  width: 8px;
+}
+.privacy-terms4,
+.terms-condition4 {
+  flex-shrink: 0;
+  font-family: var(--font-be-vietnam);
+}
+.terms-condition4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  display: inline-block;
+  width: 123px;
+}
+.privacy-terms4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-11xs);
+}
+.cotainer-24,
+.footer-container-14 {
+  display: flex;
+  justify-content: flex-start;
+}
+.cotainer-24 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.footer-container-14 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xl);
+  max-width: 1280px;
+}
+.footer-t4 {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-16xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+}
+.main-body1,
+.taizoin-landing-page-home-pag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main-body1 {
+  align-self: stretch;
+  text-align: right;
+  font-size: var(--font-size-xl);
+}
+.taizoin-landing-page-home-pag {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .nav-bar4 {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .injection-molding1,
+  .machine-operator {
+    font-size: var(--font-size-21xl);
+  }
+  .machine-workers-image-1 {
+    max-width: 50%;
+    height: auto;
+  }
+  .hero-container {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .employer-img-1-n-1-icon {
+    max-width: 50%;
+    height: auto;
+  }
+  .manufacturing-unit-owners1 {
+    font-size: var(--font-size-lg);
+  }
+  .an-all-in-one-platform-container {
+    font-size: var(--font-size-smi);
+  }
+  .title-sub-title,
+  .title-subtitle3 {
+    gap: var(--gap-base);
+  }
+  .employer-img-2-n-1-icon {
+    max-width: 50%;
+    height: auto;
+  }
+  .footer-quick-links4 {
+    gap: var(--gap-xl);
+  }
+  .footer-content4 {
+    gap: var(--gap-21xl);
+  }
+  .footer-t4 {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-container {
+    padding-left: var(--padding-261xl);
+    padding-right: var(--padding-261xl);
+    box-sizing: border-box;
+  }
+  .vertical-break-line {
+    display: none;
+    width: 1px;
+    height: 50px;
+    transform: rotate(-90deg);
+    border-radius: 0;
+  }
+  .stats-section {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .who-we-serve {
+    padding-left: var(--padding-441xl);
+    padding-right: var(--padding-441xl);
+    box-sizing: border-box;
+  }
+  .taizo-enables-manufacturing4 {
+    width: 442px;
+  }
+  .social-link4 {
+    gap: var(--gap-11xl);
+  }
+  .footer-t4 {
+    padding-left: var(--padding-261xl);
+    padding-right: var(--padding-261xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .nav-bar-links-btn-con4 {
+    display: none;
+  }
+  .nav-bar-links-btn4,
+  .tab-mob-view-nav-bar-menu-ic4 {
+    display: flex;
+  }
+  .nav-bar4 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .hiring,
+  .injection-molding1,
+  .machine-operator,
+  .made-simple-organized {
+    text-align: center;
+  }
+  .title-buttons {
+    align-items: center;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .title-img {
+    flex-direction: column;
+  }
+  .hero-container {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .company-ic-large-view,
+  .copmany-ic-mobile-view {
+    width: 50px;
+    height: 50px;
+  }
+  .vertical-break-line {
+    width: 1px;
+  }
+  .stats-container {
+    flex: unset;
+    align-self: stretch;
+  }
+  .stats-section {
+    flex-direction: column;
+  }
+  .employer-img-1-n-1-icon {
+    max-width: 50%;
+  }
+  .an-all-in-one-platform-container,
+  .manufacturing-unit-owners1 {
+    text-align: center;
+  }
+  .title-sub-title-buttons {
+    align-items: center;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .manufacturing-unit-owners {
+    flex-direction: column;
+  }
+  .title-subtitle-buttons {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .jobseekers {
+    flex-direction: column;
+  }
+  .container-1 {
+    max-width: 800px;
+  }
+  .who-we-serve {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .footer-logo-text4 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .more-careers4 {
+    max-width: 299px;
+  }
+  .footer-quick-links4 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .infotaizoin5,
+  .we-would-love4 {
+    text-align: left;
+  }
+  .div14 {
+    text-align: right;
+  }
+  .a4 {
+    text-align: left;
+  }
+  .support-details4 {
+    gap: var(--gap-8xs);
+  }
+  .social-link4,
+  .support4 {
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-link4 {
+    gap: var(--gap-31xl);
+    padding-top: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .footer-content4 {
+    flex-direction: column;
+    gap: var(--gap-21xl);
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .footer-container-14 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-t4 {
+    flex-direction: column;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-bar4 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .hiring,
+  .injection-molding1,
+  .machine-operator,
+  .made-simple-organized {
+    text-align: center;
+  }
+  .title-buttons {
+    align-items: center;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .title-img {
+    flex-direction: column;
+  }
+  .hero-container {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .copmany-ic-mobile-view {
+    display: flex;
+  }
+  .b,
+  .manufacturing-companies {
+    text-align: left;
+  }
+  .stats-number {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .company-ic-large-view {
+    display: none;
+  }
+  .comapanies,
+  .companies-stats {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .companies-stats {
+    flex: unset;
+    align-self: stretch;
+  }
+  .horizontal-break-line-mob-view {
+    display: flex;
+    width: 1000px;
+  }
+  .vertical-break-line {
+    display: none;
+  }
+  .jobseekers-ic-icon {
+    width: 56px;
+    height: 42px;
+  }
+  .machine-operators-diplomaiti {
+    gap: var(--gap-xs);
+    flex: unset;
+    align-self: stretch;
+  }
+  .stats-container,
+  .stats-section {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .stats-container {
+    gap: var(--gap-xl);
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: var(--padding-3xs);
+    padding-bottom: var(--padding-3xs);
+    flex: unset;
+    align-self: stretch;
+  }
+  .stats-section {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+  }
+  .employer-img-1-n-1-icon {
+    max-width: 80%;
+    height: auto;
+  }
+  .an-all-in-one-platform-container,
+  .manufacturing-unit-owners1 {
+    text-align: center;
+  }
+  .title-sub-title-buttons {
+    align-items: center;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .manufacturing-unit-owners {
+    flex-direction: column;
+  }
+  .title-subtitle-buttons {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .employer-img-2-n-1-icon {
+    max-width: 80%;
+    height: auto;
+  }
+  .jobseekers {
+    flex-direction: column;
+  }
+  .footer-logo-text4 {
+    width: auto;
+  }
+  .footer-logo-text4,
+  .more8 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-quick-links4,
+  .more-careers4 {
+    flex-direction: column;
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-quick-links4 {
+    width: 460px;
+    gap: var(--gap-31xl);
+  }
+  .infotaizoin5,
+  .we-would-love4 {
+    text-align: left;
+  }
+  .social-link4,
+  .support4 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-link4 {
+    gap: var(--gap-21xl);
+  }
+  .footer-content4 {
+    flex-direction: column;
+    gap: var(--gap-41xl);
+  }
+  .footer-container-14 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-t4 {
+    flex-direction: column;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .nav-bar-links-btn-con4 {
+    display: none;
+  }
+  .nav-bar-links-btn4,
+  .nav-bar-links8,
+  .tab-mob-view-nav-bar-menu-ic4 {
+    display: flex;
+  }
+  .nav-bar4 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hiring {
+    font-size: var(--font-size-7xl);
+  }
+  .injection-molding1,
+  .machine-operator {
+    font-size: var(--font-size-9xl);
+  }
+  .made-simple-organized {
+    font-size: var(--font-size-sm);
+  }
+  .title4 {
+    gap: var(--gap-3xs);
+  }
+  .whatsapp-us-btn1 {
+    width: 181px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .buttons1 {
+    flex-direction: column;
+  }
+  .title-buttons {
+    gap: var(--gap-21xl);
+  }
+  .machine-workers-image-1 {
+    max-width: 90%;
+    height: auto;
+  }
+  .hero-container {
+    gap: var(--gap-11xl);
+    padding: var(--padding-21xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .copmany-ic-mobile-view {
+    display: flex;
+    max-width: 12%;
+    height: auto;
+  }
+  .b {
+    font-size: var(--font-size-lg);
+    text-align: left;
+  }
+  .manufacturing-companies {
+    font-size: var(--font-size-sm);
+    text-align: left;
+  }
+  .stats-number {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .company-ic-large-view {
+    display: none;
+  }
+  .comapanies {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .companies-stats {
+    gap: var(--gap-xl);
+    align-items: flex-start;
+    justify-content: center;
+    flex: unset;
+    align-self: stretch;
+  }
+  .horizontal-break-line-mob-view {
+    display: flex;
+  }
+  .vertical-break-line {
+    display: none;
+    width: 2px;
+    height: 88px;
+    transform: rotate(-90deg);
+  }
+  .jobseekers-ic-icon {
+    max-width: 80%;
+    height: auto;
+  }
+  .b1 {
+    font-size: var(--font-size-lg);
+  }
+  .machine-operators-diplomaiti2 {
+    font-size: var(--font-size-sm);
+  }
+  .machine-operators-diplomaiti {
+    gap: var(--gap-3xs);
+    flex: unset;
+    align-self: stretch;
+  }
+  .stats-container {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .stats-section {
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-xl)
+      var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .who-we-serve1 {
+    font-size: var(--font-size-xl);
+  }
+  .employer-img-1-n-1-icon {
+    max-width: 75%;
+  }
+  .manufacturing-unit-owners1 {
+    font-size: var(--font-size-base);
+    text-align: center;
+  }
+  .an-all-in-one-platform-container {
+    font-size: var(--font-size-smi);
+    text-align: center;
+  }
+  .title-subtitle3 {
+    gap: var(--gap-xs);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .whatsapp-us-btn2 {
+    width: 181px;
+  }
+  .buttons2,
+  .title-sub-title-buttons {
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons2 {
+    flex-direction: column;
+  }
+  .title-sub-title-buttons {
+    gap: var(--gap-11xl);
+    flex: unset;
+    align-self: stretch;
+  }
+  .manufacturing-unit-owners {
+    flex-direction: column;
+  }
+  .title-sub-title {
+    gap: var(--gap-xs);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .whatsapp-us-btn3 {
+    width: 181px;
+  }
+  .title-subtitle-buttons {
+    gap: var(--gap-11xl);
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .employer-img-2-n-1-icon {
+    max-width: 75%;
+  }
+  .jobseekers {
+    flex-direction: column;
+  }
+  .container-1 {
+    gap: var(--gap-xl);
+  }
+  .who-we-serve {
+    padding: var(--padding-21xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .taizo-enables-manufacturing4 {
+    font-size: var(--font-size-smi);
+    max-width: 340px;
+  }
+  .more-careers4,
+  .more8 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .more-careers4 {
+    gap: var(--gap-21xl);
+  }
+  .footer-quick-links4,
+  .more-careers4 {
+    flex-direction: column;
+  }
+  .support-details4 {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-link4 {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .copyright-taizo4 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .privacy-policy4 {
+    text-align: left;
+  }
+  .cotainer-24,
+  .privacy-terms4 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .privacy-terms4 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cotainer-24 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .footer-container-14 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer-t4 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 350px) {
+  .nav-bar-links-btn-con4 {
+    display: none;
+  }
+  .tab-mob-view-nav-bar-menu-ic4 {
+    display: flex;
+  }
+  .machine-operator {
+    font-size: var(--font-size-11xl);
+  }
+  .taizo-enables-manufacturing4 {
+    font-size: var(--font-size-xs);
+  }
+  .footer-logo-text4 {
+    align-self: stretch;
+    width: auto;
+  }
+}
